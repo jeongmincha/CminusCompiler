@@ -1,0 +1,41 @@
+/* test program for dangling statments 
+   this program should not be 
+   compiled by semantic analysis!!*/
+
+void danglingIf (void)
+{
+	if(a > 0)
+	{
+		if(b >= 1)
+		{
+			if(c == 2)
+			{
+				if(d = 3)
+					return 4;
+        			else
+          				return 3;
+      			}
+      			else return 2;
+    		}
+    		else return 1;
+  	}   
+  	else return 0;
+}
+
+void danglingWhile(void)
+{
+	while(a > 0)
+	{
+		while(b < 1)
+		{
+			while(c == 2)
+			{
+				while(d != 3)
+				{
+					while(e = 4)
+						return end;
+				}
+			}
+		}
+	}
+}

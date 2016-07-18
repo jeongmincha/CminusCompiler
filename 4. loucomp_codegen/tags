@@ -1,0 +1,358 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESS	cgen.c	15;"	d	file:
+ASSIGN	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+ArrayDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon3
+AssignK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon3
+BUFLEN	scan.c	25;"	d	file:
+BucketList	symtab.h	/^   } * BucketList;$/;"	t	typeref:struct:BucketListRec
+BucketListRec	symtab.h	/^typedef struct BucketListRec$/;"	s
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g $/;"	m
+CLPAREN	globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon1
+COMMA	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon1
+COMMENT	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon1
+CRPAREN	globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon1
+CallK	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	e	enum:__anon4
+ComK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon3
+ConstK	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	e	enum:__anon4
+DADDR_SIZE	tm.c	22;"	d	file:
+DONE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon8	file:
+ELSE	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+ENDFILE	globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon1
+EOF_flag	scan.c	/^static int EOF_flag = FALSE; \/* corrects ungetNextChar behavior on EOF *\/$/;"	v	file:
+EQ	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+ERROR	globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon1
+EchoSource	main.c	/^int EchoSource = FALSE;$/;"	v
+Error	main.c	/^int Error = FALSE;$/;"	v
+ExpK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon2
+ExpKind	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	t	typeref:enum:__anon4
+ExpType	globals.h	/^typedef enum {Void,Integer,IntegerArray} ExpType;$/;"	t	typeref:enum:__anon5
+FALSE	globals.h	17;"	d
+FALSE	tm.c	17;"	d	file:
+FuncDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon3
+FuncInfo	cgen.c	/^  } FuncInfo;$/;"	t	typeref:struct:funcInfo	file:
+IADDR_SIZE	tm.c	21;"	d	file:
+ID	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon1
+IF	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+INASSIGN	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon8	file:
+INCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon8	file:
+INDENT	util.c	131;"	d	file:
+INID	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon8	file:
+INLE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon8	file:
+INNEQ	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon8	file:
+INNUM	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon8	file:
+INSE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon8	file:
+INSTRUCTION	tm.c	/^   } INSTRUCTION;$/;"	t	typeref:struct:__anon13	file:
+INT	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+INTOCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon8	file:
+IdArrayK	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	e	enum:__anon4
+IdK	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	e	enum:__anon4
+IfK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon3
+Integer	globals.h	/^typedef enum {Void,Integer,IntegerArray} ExpType;$/;"	e	enum:__anon5
+IntegerArray	globals.h	/^typedef enum {Void,Integer,IntegerArray} ExpType;$/;"	e	enum:__anon5
+LE	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+LG	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+LINESIZE	tm.c	26;"	d	file:
+LPAREN	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon1
+LineList	symtab.h	/^   } * LineList;$/;"	t	typeref:struct:LineListRec
+LineListRec	symtab.h	/^typedef struct LineListRec$/;"	s
+MAXCHILDREN	globals.h	60;"	d
+MAXRESERVED	globals.h	25;"	d
+MAXTOKENLEN	scan.h	12;"	d
+MINUS	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon1
+NEQ	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+NO_ANALYZE	main.c	13;"	d	file:
+NO_CODE	main.c	18;"	d	file:
+NO_PARSE	main.c	11;"	d	file:
+NO_REGS	tm.c	23;"	d	file:
+NUM	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon1
+NodeKind	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon2
+OBJS	Makefile	/^OBJS = main.o util.o scan.o parse.o symtab.o analyze.o code.o cgen.o$/;"	m
+OPCLASS	tm.c	/^   } OPCLASS;$/;"	t	typeref:enum:__anon10	file:
+OPCODE	tm.c	/^   } OPCODE;$/;"	t	typeref:enum:__anon11	file:
+OUTOFCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon8	file:
+OVER	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon1
+OpK	globals.h	/^typedef enum {OpK,ConstK,IdK,IdArrayK,CallK} ExpKind;$/;"	e	enum:__anon4
+PC_REG	tm.c	24;"	d	file:
+PLUS	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon1
+ParamK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon3
+RETURN	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+RPAREN	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon1
+ReturnK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon3
+SE	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+SEMI	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon1
+SHIFT	symtab.c	23;"	d	file:
+SIZE	symtab.c	19;"	d	file:
+SLPAREN	globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon1
+SM	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon1
+SRPAREN	globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon1
+START	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon8	file:
+STEPRESULT	tm.c	/^   } STEPRESULT;$/;"	t	typeref:enum:__anon12	file:
+StackFrame	cgen.c	/^  } StackFrame;$/;"	t	typeref:struct:stackFrame	file:
+StateType	scan.c	/^} StateType;$/;"	t	typeref:enum:__anon8	file:
+StmtK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon2
+StmtKind	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	t	typeref:enum:__anon3
+TIMES	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon1
+TRUE	globals.h	21;"	d
+TRUE	tm.c	14;"	d	file:
+TokenType	globals.h	/^} TokenType;$/;"	t	typeref:enum:__anon1
+TraceAnalyze	main.c	/^int TraceAnalyze = FALSE;$/;"	v
+TraceCode	main.c	/^int TraceCode = TRUE;$/;"	v
+TraceParse	main.c	/^int TraceParse = FALSE;$/;"	v
+TraceScan	main.c	/^int TraceScan = FALSE;$/;"	v
+TreeNode	globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+UNINDENT	util.c	132;"	d	file:
+VALUE	cgen.c	16;"	d	file:
+VOID	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+VarDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon3
+VarNode	cgen.c	/^  } VarNode;$/;"	t	typeref:struct:varNode	file:
+Void	globals.h	/^typedef enum {Void,Integer,IntegerArray} ExpType;$/;"	e	enum:__anon5
+WHILE	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon1
+WORDSIZE	tm.c	27;"	d	file:
+WhileK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon3
+_ANALYZE_H_	analyze.h	9;"	d
+_CGEN_H_	cgen.h	9;"	d
+_CODE_H_	code.h	10;"	d
+_GLOBALS_H_	globals.h	9;"	d
+_PARSE_H_	parse.h	9;"	d
+_SCAN_H_	scan.h	9;"	d
+_SYMTAB_H_	symtab.h	10;"	d
+_UTIL_H_	util.h	9;"	d
+ac	code.h	23;"	d
+ac1	code.h	25;"	d
+additive_expression	parse.c	/^static TreeNode * additive_expression (void)$/;"	f	file:
+arg_list	parse.c	/^static TreeNode * arg_list (void)$/;"	f	file:
+args	parse.c	/^static TreeNode * args (void)$/;"	f	file:
+atEOL	tm.c	/^int atEOL(void)$/;"	f
+attr	globals.h	/^     } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon7
+bp	code.h	19;"	d
+bufsize	scan.c	/^static int bufsize = 0;      \/\/ current size of the lineBuf is $/;"	v	file:
+buildSymtab	analyze.c	/^void buildSymtab(TreeNode * syntaxTree)$/;"	f
+cGen	cgen.c	/^static void cGen( TreeNode * tree)$/;"	f	file:
+call	cgen.c	/^static void call (FuncInfo * f) {$/;"	f	file:
+ch	tm.c	/^char ch  ;$/;"	v
+checkArgs	analyze.c	/^static int checkArgs(TreeNode *dec, TreeNode *call)$/;"	f	file:
+checkNode	analyze.c	/^static void checkNode(TreeNode * t)$/;"	f	file:
+child	globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+code	main.c	/^FILE * code;$/;"	v
+codeGen	cgen.c	/^void codeGen(TreeNode * syntaxTree, char * codefile)$/;"	f
+codeGenInit	cgen.c	/^static void codeGenInit(void) {$/;"	f	file:
+codeGenInput	cgen.c	/^static void codeGenInput(void) {$/;"	f	file:
+codeGenOutput	cgen.c	/^static void codeGenOutput(void) {$/;"	f	file:
+compound_stmt	parse.c	/^static TreeNode * compound_stmt (void)$/;"	f	file:
+copyString	util.c	/^char * copyString(char * s)$/;"	f
+currentFuncName	cgen.c	/^static char * currentFuncName = NULL;$/;"	v	file:
+dMem	tm.c	/^int dMem [DADDR_SIZE];$/;"	v
+dec	cgen.c	/^    TreeNode * dec;$/;"	m	struct:funcInfo	file:
+declNode	globals.h	/^     struct treeNode *declNode;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+declaration	parse.c	/^static TreeNode * declaration(void)$/;"	f	file:
+declaration_list	parse.c	/^static TreeNode * declaration_list(void)$/;"	f	file:
+definePreDefFunc	analyze.c	/^static void definePreDefFunc(void)$/;"	f	file:
+dloc	tm.c	/^int dloc = 0 ;$/;"	v
+doCommand	tm.c	/^int doCommand (void)$/;"	f
+done	tm.c	/^int done  ;$/;"	v
+emitBackup	code.c	/^void emitBackup( int loc)$/;"	f
+emitComment	code.c	/^void emitComment( char * c )$/;"	f
+emitGetAddr	cgen.c	/^void emitGetAddr(TreeNode * var)$/;"	f
+emitLoc	code.c	/^static int emitLoc = 0 ;$/;"	v	file:
+emitRM	code.c	/^void emitRM( char * op, int r, int d, int s, char *c)$/;"	f
+emitRM_Abs	code.c	/^void emitRM_Abs( char *op, int r, int a, char * c)$/;"	f
+emitRO	code.c	/^void emitRO( char *op, int r, int s, int t, char *c)$/;"	f
+emitRelop	cgen.c	/^void emitRelop(char * op)$/;"	f
+emitRestore	code.c	/^void emitRestore(void)$/;"	f
+emitSkip	code.c	/^int emitSkip( int howMany)$/;"	f
+error	tm.c	/^int error( char * msg, int lineNo, int instNo)$/;"	f
+exp	globals.h	/^     	     ExpKind exp; $/;"	m	union:treeNode::__anon6
+expression	parse.c	/^static TreeNode * expression (void)$/;"	f	file:
+expression_stmt	parse.c	/^static TreeNode * expression_stmt (void)$/;"	f	file:
+factor	parse.c	/^static TreeNode * factor (void)$/;"	f	file:
+funcInfo	cgen.c	/^typedef struct funcInfo$/;"	s	file:
+func_head	cgen.c	/^static void func_head(char * name) {$/;"	f	file:
+func_return	cgen.c	/^static void func_return()$/;"	f	file:
+functionList	cgen.c	/^static FuncInfo * functionList = NULL;$/;"	v	file:
+genExp	cgen.c	/^static void genExp( TreeNode * tree)$/;"	f	file:
+genStmt	cgen.c	/^static void genStmt( TreeNode * tree) {$/;"	f	file:
+getCh	tm.c	/^void getCh (void)$/;"	f
+getInfo	cgen.c	/^static int getInfo = 0;$/;"	v	file:
+getNextChar	scan.c	/^static int getNextChar(void)$/;"	f	file:
+getNum	tm.c	/^int getNum (void)$/;"	f
+getToken	scan.c	/^TokenType getToken(void) $/;"	f
+getWord	tm.c	/^int getWord (void)$/;"	f
+get_global_var_num	symtab.c	/^int get_global_var_num (void)$/;"	f
+globalIndex	cgen.c	/^int globalIndex = 0;$/;"	v
+globalVars	cgen.c	/^static VarNode * globalVars = NULL;$/;"	v	file:
+gp	code.h	17;"	d
+hash	symtab.c	/^static int hash ( char * key )$/;"	f	file:
+hashTable	symtab.c	/^static BucketList hashTable[SIZE];$/;"	v	file:
+highEmitLoc	code.c	/^static int highEmitLoc = 0;$/;"	v	file:
+iMem	tm.c	/^INSTRUCTION iMem [IADDR_SIZE];$/;"	v
+iarg1	tm.c	/^      int iarg1  ;$/;"	m	struct:__anon13	file:
+iarg2	tm.c	/^      int iarg2  ;$/;"	m	struct:__anon13	file:
+iarg3	tm.c	/^      int iarg3  ;$/;"	m	struct:__anon13	file:
+icountflag	tm.c	/^int icountflag = FALSE;$/;"	v
+iloc	tm.c	/^int iloc = 0 ;$/;"	v
+inCol	tm.c	/^int inCol  ;$/;"	v
+in_Line	tm.c	/^char in_Line[LINESIZE] ;$/;"	v
+indentno	util.c	/^static indentno = 0;$/;"	v	file:
+index	cgen.c	/^    int index;$/;"	m	struct:varNode	file:
+info	cgen.c	/^    FuncInfo * info;$/;"	m	struct:stackFrame	file:
+insertNode	analyze.c	/^static void insertNode(TreeNode * t)$/;"	f	file:
+inst_addr	cgen.c	/^    int inst_addr;$/;"	m	struct:funcInfo	file:
+iop	tm.c	/^      int iop  ;$/;"	m	struct:__anon13	file:
+isAddop	parse.c	/^int isAddop (TokenType token)$/;"	f
+isCall	cgen.c	/^static int isCall = FALSE;$/;"	v	file:
+isDeclaration	analyze.c	/^int isDeclaration(TreeNode * node)$/;"	f
+isMulop	parse.c	/^int isMulop (TokenType token)$/;"	f
+isOp	parse.c	/^int isOp (TokenType token)$/;"	f
+isParam	cgen.c	/^static int isParam(char * name)$/;"	f	file:
+isRelop	parse.c	/^int isRelop (TokenType token)$/;"	f
+iteration_stmt	parse.c	/^static TreeNode * iteration_stmt (void)$/;"	f	file:
+kind	globals.h	/^     } kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon6
+lineBuf	scan.c	/^static char lineBuf[BUFLEN]; \/\/ hold the current line$/;"	v	file:
+lineLen	tm.c	/^int lineLen ;$/;"	v
+lineno	globals.h	/^     int lineno;$/;"	m	struct:treeNode
+lineno	main.c	/^int lineno = 0;$/;"	v
+lineno	symtab.h	/^   { int lineno;$/;"	m	struct:LineListRec
+linepos	scan.c	/^static int linepos = 0;      \/\/ current pos in lineBuf$/;"	v	file:
+lines	symtab.h	/^     struct LineListRec * lines;$/;"	m	struct:BucketListRec	typeref:struct:BucketListRec::LineListRec
+listing	main.c	/^FILE * listing;$/;"	v
+loc	globals.h	/^     int loc;$/;"	m	struct:treeNode
+local_declarations	parse.c	/^static TreeNode * local_declarations (void)$/;"	f	file:
+location	analyze.c	/^static int location = 0;$/;"	v	file:
+lookup_FuncInfo	cgen.c	/^static FuncInfo * lookup_FuncInfo(char * name)$/;"	f	file:
+main	main.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tm.c	/^main( int argc, char * argv[] )$/;"	f
+makeFuncInfo	cgen.c	/^static FuncInfo * makeFuncInfo (TreeNode * dec)$/;"	f	file:
+makeStackFrame	cgen.c	/^static StackFrame * makeStackFrame(FuncInfo * f)$/;"	f	file:
+match	parse.c	/^static void match(TokenType expected)$/;"	f	file:
+name	cgen.c	/^    char * name;$/;"	m	struct:funcInfo	file:
+name	cgen.c	/^    char * name;$/;"	m	struct:varNode	file:
+name	globals.h	/^             char * name; $/;"	m	union:treeNode::__anon7
+name	globals.h	/^     char * name;$/;"	m	struct:treeNode
+name	symtab.h	/^   { char * name;$/;"	m	struct:BucketListRec
+newExpNode	util.c	/^TreeNode * newExpNode (ExpKind kind)$/;"	f
+newNode	util.c	/^TreeNode * newNode (void)$/;"	f
+newStmtNode	util.c	/^TreeNode * newStmtNode (StmtKind kind)$/;"	f
+next	cgen.c	/^    struct funcInfo * next;$/;"	m	struct:funcInfo	typeref:struct:funcInfo::funcInfo	file:
+next	cgen.c	/^    struct stackFrame * next;$/;"	m	struct:stackFrame	typeref:struct:stackFrame::stackFrame	file:
+next	cgen.c	/^    struct varNode *next;$/;"	m	struct:varNode	typeref:struct:varNode::varNode	file:
+next	symtab.h	/^     struct BucketListRec * next;$/;"	m	struct:BucketListRec	typeref:struct:BucketListRec::BucketListRec
+next	symtab.h	/^     struct LineListRec * next;$/;"	m	struct:LineListRec	typeref:struct:LineListRec::LineListRec
+node	symtab.h	/^     TreeNode * node;$/;"	m	struct:BucketListRec
+nodekind	globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nonBlank	tm.c	/^int nonBlank (void)$/;"	f
+nullProc	analyze.c	/^static void nullProc(TreeNode * t)$/;"	f	file:
+num	tm.c	/^int num  ;$/;"	v
+offset	cgen.c	/^static int offset(char * name)$/;"	f	file:
+op	globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon7
+opADD	tm.c	/^   opADD,    \/* RR     reg(r) = reg(s)+reg(t) *\/$/;"	e	enum:__anon11	file:
+opClass	tm.c	/^int opClass( int c )$/;"	f
+opCodeTab	tm.c	/^char * opCodeTab[]$/;"	v
+opDIV	tm.c	/^   opDIV,    \/* RR     reg(r) = reg(s)\/reg(t) *\/$/;"	e	enum:__anon11	file:
+opHALT	tm.c	/^   opHALT,    \/* RR     halt, operands are ignored *\/$/;"	e	enum:__anon11	file:
+opIN	tm.c	/^   opIN,      \/* RR     read into reg(r); s and t are ignored *\/$/;"	e	enum:__anon11	file:
+opJEQ	tm.c	/^   opJEQ,     \/* RA     if reg(r)==0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opJGE	tm.c	/^   opJGE,     \/* RA     if reg(r)>=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opJGT	tm.c	/^   opJGT,     \/* RA     if reg(r)>0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opJLE	tm.c	/^   opJLE,     \/* RA     if reg(r)<=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opJLT	tm.c	/^   opJLT,     \/* RA     if reg(r)<0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opJNE	tm.c	/^   opJNE,     \/* RA     if reg(r)!=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opLD	tm.c	/^   opLD,      \/* RM     reg(r) = mem(d+reg(s)) *\/$/;"	e	enum:__anon11	file:
+opLDA	tm.c	/^   opLDA,     \/* RA     reg(r) = d+reg(s) *\/$/;"	e	enum:__anon11	file:
+opLDC	tm.c	/^   opLDC,     \/* RA     reg(r) = d ; reg(s) is ignored *\/$/;"	e	enum:__anon11	file:
+opMUL	tm.c	/^   opMUL,    \/* RR     reg(r) = reg(s)*reg(t) *\/$/;"	e	enum:__anon11	file:
+opOUT	tm.c	/^   opOUT,     \/* RR     write from reg(r), s and t are ignored *\/$/;"	e	enum:__anon11	file:
+opRALim	tm.c	/^   opRALim    \/* Limit of RA opcodes *\/$/;"	e	enum:__anon11	file:
+opRMLim	tm.c	/^   opRMLim,   \/* Limit of RM opcodes *\/$/;"	e	enum:__anon11	file:
+opRRLim	tm.c	/^   opRRLim,   \/* limit of RR opcodes *\/$/;"	e	enum:__anon11	file:
+opST	tm.c	/^   opST,      \/* RM     mem(d+reg(s)) = reg(r) *\/$/;"	e	enum:__anon11	file:
+opSUB	tm.c	/^   opSUB,    \/* RR     reg(r) = reg(s)-reg(t) *\/$/;"	e	enum:__anon11	file:
+opclRA	tm.c	/^   opclRA      \/* reg r, int d+s *\/$/;"	e	enum:__anon10	file:
+opclRM	tm.c	/^   opclRM,     \/* reg r, mem d+s *\/$/;"	e	enum:__anon10	file:
+opclRR	tm.c	/^   opclRR,     \/* reg operands r,s,t *\/$/;"	e	enum:__anon10	file:
+para_num	cgen.c	/^    int para_num;$/;"	m	struct:funcInfo	file:
+param	parse.c	/^static TreeNode * param (void)$/;"	f	file:
+paramStack	symtab.c	/^TreeNode *paramStack[SIZE];$/;"	v
+param_list	parse.c	/^static TreeNode * param_list (void)$/;"	f	file:
+params	cgen.c	/^    VarNode * params;$/;"	m	struct:funcInfo	file:
+params	parse.c	/^static TreeNode * params (void)$/;"	f	file:
+parse	parse.c	/^TreeNode * parse (void)$/;"	f
+pc	code.h	13;"	d
+pgm	tm.c	/^FILE *pgm  ;$/;"	v
+pgmName	tm.c	/^char pgmName[20];$/;"	v
+popParam	symtab.c	/^TreeNode * popParam() {$/;"	f
+pop_func	cgen.c	/^static void pop_func(void)$/;"	f	file:
+pop_reg	cgen.c	/^static void pop_reg(int reg, char *str) {$/;"	f	file:
+pop_stack	cgen.c	/^static void pop_stack (void)$/;"	f	file:
+printSpaces	util.c	/^static void printSpaces(void)$/;"	f	file:
+printSymTab	symtab.c	/^void printSymTab(FILE * listing)$/;"	f
+printToken	util.c	/^void printToken(TokenType token, const char* tokenString) $/;"	f
+printTree	util.c	/^void printTree( TreeNode * tree )$/;"	f
+pushParam	symtab.c	/^int pushParam(TreeNode * param) {$/;"	f
+push_func	cgen.c	/^static void push_func(FuncInfo * f)$/;"	f	file:
+push_global	cgen.c	/^static void push_global (char * name)$/;"	f	file:
+push_reg	cgen.c	/^static void push_reg(int reg, char *str) {$/;"	f	file:
+push_stack	cgen.c	/^static void push_stack (StackFrame * st)$/;"	f	file:
+push_var	cgen.c	/^static void push_var(VarNode * node, VarNode * vars)$/;"	f	file:
+readInstructions	tm.c	/^int readInstructions (void)$/;"	f
+reg	tm.c	/^int reg [NO_REGS];$/;"	v
+reservedLookup	scan.c	/^static TokenType reservedLookup (char * s)$/;"	f	file:
+reservedWords	scan.c	/^    } reservedWords[MAXRESERVED]$/;"	v	typeref:struct:__anon9	file:
+return_stmt	parse.c	/^static TreeNode * return_stmt (void)$/;"	f	file:
+saved_config	cgen.c	/^static int saved_config = FALSE;$/;"	v	file:
+scope	analyze.c	/^static int scope = 0;$/;"	v	file:
+scope	globals.h	/^     int scope;$/;"	m	struct:treeNode
+selection_stmt	parse.c	/^static TreeNode * selection_stmt (void)$/;"	f	file:
+sibling	globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+siblingRecur	cgen.c	/^static int siblingRecur = TRUE;$/;"	v	file:
+simple_expression	parse.c	/^static TreeNode * simple_expression (void)$/;"	f	file:
+skipCh	tm.c	/^int skipCh ( char c  )$/;"	f
+source	main.c	/^FILE * source;$/;"	v
+sp	code.h	15;"	d
+srDMEM_ERR	tm.c	/^   srDMEM_ERR,$/;"	e	enum:__anon12	file:
+srHALT	tm.c	/^   srHALT,$/;"	e	enum:__anon12	file:
+srIMEM_ERR	tm.c	/^   srIMEM_ERR,$/;"	e	enum:__anon12	file:
+srOKAY	tm.c	/^   srOKAY,$/;"	e	enum:__anon12	file:
+srZERODIVIDE	tm.c	/^   srZERODIVIDE$/;"	e	enum:__anon12	file:
+st_func_lookup	symtab.c	/^TreeNode * st_func_lookup (char * name)$/;"	f
+st_init	symtab.c	/^void st_init(void)$/;"	f
+st_insert	symtab.c	/^void st_insert(char * name, int lineno, TreeNode * t)$/;"	f
+st_lookup	symtab.c	/^BucketList st_lookup (char * name, TreeNode * t)$/;"	f
+stackFrame	cgen.c	/^typedef struct stackFrame$/;"	s	file:
+stackList	cgen.c	/^static StackFrame * stackList = NULL;$/;"	v	file:
+statement	parse.c	/^static TreeNode * statement (void)$/;"	f	file:
+statement_list	parse.c	/^static TreeNode * statement_list (void)$/;"	f	file:
+stepResultTab	tm.c	/^char * stepResultTab[]$/;"	v
+stepTM	tm.c	/^STEPRESULT stepTM (void)$/;"	f
+stmt	globals.h	/^     union { StmtKind stmt; $/;"	m	union:treeNode::__anon6
+str	scan.c	/^    { char* str;$/;"	m	struct:__anon9	file:
+syntaxError	parse.c	/^static void syntaxError(char * message)$/;"	f	file:
+syntaxTree	main.c	/^TreeNode * syntaxTree;$/;"	v
+term	parse.c	/^static TreeNode * term (void)$/;"	f	file:
+tmpOffset	cgen.c	/^static int tmpOffset = 0;$/;"	v	file:
+tok	scan.c	/^      TokenType tok;$/;"	m	struct:__anon9	file:
+token	parse.c	/^static TokenType token; \/* holds current token *\/$/;"	v	file:
+tokenString	scan.c	/^char tokenString[MAXTOKENLEN + 1];$/;"	v
+top	symtab.c	/^int top = 0;$/;"	v
+traceflag	tm.c	/^int traceflag = FALSE;$/;"	v
+traverse	analyze.c	/^static void traverse( TreeNode * t,$/;"	f	file:
+traverseGlobal	cgen.c	/^static void traverseGlobal(TreeNode * root)$/;"	f	file:
+treeNode	globals.h	/^typedef struct treeNode$/;"	s
+type	globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+typeCheck	analyze.c	/^void typeCheck(TreeNode * syntaxTree)$/;"	f
+typeError	analyze.c	/^static void typeError(TreeNode * t, char * message)$/;"	f	file:
+unexpectedTokenHandling	parse.c	/^static void unexpectedTokenHandling (void)$/;"	f	file:
+ungetNextChar	scan.c	/^static void ungetNextChar(void)$/;"	f	file:
+val	globals.h	/^             int val;$/;"	m	union:treeNode::__anon7
+varNode	cgen.c	/^typedef struct varNode$/;"	s	file:
+var_declaration	parse.c	/^static TreeNode * var_declaration (void)$/;"	f	file:
+var_num	cgen.c	/^    int var_num;$/;"	m	struct:funcInfo	file:
+vars	cgen.c	/^    VarNode * vars;$/;"	m	struct:funcInfo	file:
+word	tm.c	/^char word[WORDSIZE] ;$/;"	v
+writeInstruction	tm.c	/^void writeInstruction ( int loc )$/;"	f
+zero	code.h	21;"	d

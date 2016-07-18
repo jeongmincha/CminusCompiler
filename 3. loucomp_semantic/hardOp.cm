@@ -1,0 +1,38 @@
+/* A program for the hardest operations! */
+int hardOperation(int a, int b, int c, int d, int e, int f, int g, int h, int i)
+{
+	int resultA;	int resultB;
+	resultA = (a + (b - c) + ((e * f / g) * h)) - i;
+	resultB = sub(add(add(a, sub(b, c)), mul(div(mul(e, f), g), h)), i);
+	
+	if(isEqual(resultA, resultB))
+		return Same;
+	else
+		return Unsame;
+}
+
+int add(int x, int y)
+{
+	return (x + y);
+}
+
+int sub(int x, int y)
+{
+	return (x - y);
+}
+
+int mul(int x, int y)
+{
+	return (x * y);
+}
+
+int div(int x, int y)
+{
+	return (x / y);
+}
+
+int isEqual(int x, int y)
+{
+	if(x == y)	return 1;
+	else		return 0;
+}

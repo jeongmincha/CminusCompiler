@@ -1,0 +1,630 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY	parse.c	504;"	d	file:
+ASSIGN	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+ASSIGN	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+ArrayDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon9
+AssignK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon9
+AssignK	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon22
+AssignK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon2
+BEGIN	lex/lex.yy.c	126;"	d	file:
+BUFLEN	lex/scan.c	25;"	d	file:
+BUFLEN	scan.c	25;"	d	file:
+Boolean	globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon11
+Boolean	lex/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon24
+Boolean	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon4
+BucketList	symtab.c	/^   } * BucketList;$/;"	t	typeref:struct:BucketListRec	file:
+BucketListRec	symtab.c	/^typedef struct BucketListRec$/;"	s	file:
+CALL	parse.c	503;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CC	lex/Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $/;"	m
+CFLAGS	lex/Makefile	/^CFLAGS = $/;"	m
+CLPAREN	globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon7
+CLPAREN	lex/globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon20
+COMMA	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon7
+COMMA	lex/globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon20
+COMMENT	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon7
+COMMENT	lex/globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon20
+CRPAREN	globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon7
+CRPAREN	lex/globals.h	/^  CLPAREN,CRPAREN           \/\/ {,} (Curly)$/;"	e	enum:__anon20
+CallK	globals.h	/^typedef enum {OpK,ConstK,IdK,CallK} ExpKind;$/;"	e	enum:__anon10
+ComK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon9
+ConstK	globals.h	/^typedef enum {OpK,ConstK,IdK,CallK} ExpKind;$/;"	e	enum:__anon10
+ConstK	lex/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon23
+ConstK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon3
+DADDR_SIZE	tm.c	22;"	d	file:
+DONE	lex/scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon27	file:
+DONE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon14	file:
+ECHO	lex/lex.yy.c	602;"	d	file:
+ELSE	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+ELSE	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+ENDFILE	globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon7
+ENDFILE	lex/globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon20
+ENDFILE	yacc/globals.h	35;"	d
+EOB_ACT_CONTINUE_SCAN	lex/lex.yy.c	169;"	d	file:
+EOB_ACT_END_OF_FILE	lex/lex.yy.c	170;"	d	file:
+EOB_ACT_LAST_MATCH	lex/lex.yy.c	171;"	d	file:
+EOF_flag	lex/scan.c	/^static int EOF_flag = FALSE; \/* corrects ungetNextChar behavior on EOF *\/$/;"	v	file:
+EOF_flag	scan.c	/^static int EOF_flag = FALSE; \/* corrects ungetNextChar behavior on EOF *\/$/;"	v	file:
+EQ	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+EQ	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+ERROR	globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon7
+ERROR	lex/globals.h	/^  ENDFILE,ERROR,$/;"	e	enum:__anon20
+EchoSource	lex/main.c	/^int EchoSource = FALSE;$/;"	v
+EchoSource	main.c	/^int EchoSource = FALSE;$/;"	v
+Error	lex/main.c	/^int Error = FALSE;$/;"	v
+Error	main.c	/^int Error = FALSE;$/;"	v
+ExpK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon8
+ExpK	lex/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon21
+ExpK	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon1
+ExpKind	globals.h	/^typedef enum {OpK,ConstK,IdK,CallK} ExpKind;$/;"	t	typeref:enum:__anon10
+ExpKind	lex/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	t	typeref:enum:__anon23
+ExpKind	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	t	typeref:enum:__anon3
+ExpType	globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	t	typeref:enum:__anon11
+ExpType	lex/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	t	typeref:enum:__anon24
+ExpType	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	t	typeref:enum:__anon4
+FALSE	globals.h	17;"	d
+FALSE	lex/globals.h	17;"	d
+FALSE	tm.c	17;"	d	file:
+FALSE	yacc/globals.h	40;"	d
+FLEXINT_H	lex/lex.yy.c	30;"	d	file:
+FLEX_BETA	lex/lex.yy.c	14;"	d	file:
+FLEX_SCANNER	lex/lex.yy.c	9;"	d	file:
+FuncDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon9
+IADDR_SIZE	tm.c	21;"	d	file:
+ID	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon7
+ID	lex/globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon20
+IF	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+IF	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+INASSIGN	lex/scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon27	file:
+INASSIGN	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon14	file:
+INCOMMENT	lex/scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon27	file:
+INCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon14	file:
+INDENT	lex/util.c	85;"	d	file:
+INDENT	util.c	128;"	d	file:
+INID	lex/scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon27	file:
+INID	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon14	file:
+INITIAL	lex/lex.yy.c	510;"	d	file:
+INLE	lex/scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon27	file:
+INLE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon14	file:
+INNEQ	lex/scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon27	file:
+INNEQ	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon14	file:
+INNUM	lex/scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon27	file:
+INNUM	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon14	file:
+INSE	lex/scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon27	file:
+INSE	scan.c	/^  INASSIGN, INSE, INLE, INNEQ, DONE$/;"	e	enum:__anon14	file:
+INSTRUCTION	tm.c	/^   } INSTRUCTION;$/;"	t	typeref:struct:__anon19	file:
+INT	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+INT	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+INT16_MAX	lex/lex.yy.c	72;"	d	file:
+INT16_MIN	lex/lex.yy.c	63;"	d	file:
+INT32_MAX	lex/lex.yy.c	75;"	d	file:
+INT32_MIN	lex/lex.yy.c	66;"	d	file:
+INT8_MAX	lex/lex.yy.c	69;"	d	file:
+INT8_MIN	lex/lex.yy.c	60;"	d	file:
+INTOCOMMENT	lex/scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon27	file:
+INTOCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon14	file:
+IdK	globals.h	/^typedef enum {OpK,ConstK,IdK,CallK} ExpKind;$/;"	e	enum:__anon10
+IdK	lex/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon23
+IdK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon3
+IfK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon9
+IfK	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon22
+IfK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon2
+Integer	globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon11
+Integer	lex/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon24
+Integer	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon4
+LE	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+LE	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+LG	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+LG	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+LINESIZE	tm.c	26;"	d	file:
+LPAREN	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon7
+LPAREN	lex/globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon20
+LineList	symtab.c	/^   } * LineList;$/;"	t	typeref:struct:LineListRec	file:
+LineListRec	symtab.c	/^typedef struct LineListRec$/;"	s	file:
+MAXCHILDREN	globals.h	60;"	d
+MAXCHILDREN	lex/globals.h	59;"	d
+MAXCHILDREN	yacc/globals.h	72;"	d
+MAXRESERVED	globals.h	25;"	d
+MAXRESERVED	lex/globals.h	25;"	d
+MAXRESERVED	yacc/globals.h	48;"	d
+MAXTOKENLEN	lex/scan.h	12;"	d
+MAXTOKENLEN	scan.h	12;"	d
+MINUS	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon7
+MINUS	lex/globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon20
+NEQ	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+NEQ	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+NO_ANALYZE	lex/main.c	13;"	d	file:
+NO_ANALYZE	main.c	14;"	d	file:
+NO_CODE	lex/main.c	18;"	d	file:
+NO_CODE	main.c	20;"	d	file:
+NO_PARSE	lex/main.c	11;"	d	file:
+NO_PARSE	main.c	12;"	d	file:
+NO_REGS	tm.c	23;"	d	file:
+NUM	globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon7
+NUM	lex/globals.h	/^  ID,NUM,COMMENT,$/;"	e	enum:__anon20
+NodeKind	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon8
+NodeKind	lex/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon21
+NodeKind	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon1
+OBJS	Makefile	/^OBJS = main.o util.o scan.o parse.o $/;"	m
+OBJS	lex/Makefile	/^OBJS = main.o util.o lex.yy.o$/;"	m
+OPCLASS	tm.c	/^   } OPCLASS;$/;"	t	typeref:enum:__anon16	file:
+OPCODE	tm.c	/^   } OPCODE;$/;"	t	typeref:enum:__anon17	file:
+OUTOFCOMMENT	lex/scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon27	file:
+OUTOFCOMMENT	scan.c	/^  INTOCOMMENT, INCOMMENT, OUTOFCOMMENT, $/;"	e	enum:__anon14	file:
+OVER	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon7
+OVER	lex/globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon20
+OpK	globals.h	/^typedef enum {OpK,ConstK,IdK,CallK} ExpKind;$/;"	e	enum:__anon10
+OpK	lex/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon23
+OpK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon3
+PC_REG	tm.c	24;"	d	file:
+PLUS	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon7
+PLUS	lex/globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon20
+ParamK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon9
+REJECT	lex/lex.yy.c	490;"	d	file:
+RETURN	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+RETURN	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+RPAREN	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon7
+RPAREN	lex/globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon20
+ReadK	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon22
+ReadK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon2
+RepeatK	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon22
+RepeatK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon2
+ReturnK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon9
+SE	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+SE	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+SEMI	globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon7
+SEMI	lex/globals.h	/^  SEMI,COMMA,LPAREN,RPAREN, \/\/ ;, ',', (, )$/;"	e	enum:__anon20
+SHIFT	symtab.c	21;"	d	file:
+SIZE	symtab.c	17;"	d	file:
+SLPAREN	globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon7
+SLPAREN	lex/globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon20
+SM	globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon7
+SM	lex/globals.h	/^  ASSIGN,EQ,NEQ,LG,LE,SM,SE,\/\/ =, ==, !=, >, >=, <. <=$/;"	e	enum:__anon20
+SRPAREN	globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon7
+SRPAREN	lex/globals.h	/^  SLPAREN,SRPAREN,          \/\/ [,] (Square)$/;"	e	enum:__anon20
+START	lex/scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon27	file:
+START	scan.c	/^  START, INNUM, INID, $/;"	e	enum:__anon14	file:
+STEPRESULT	tm.c	/^   } STEPRESULT;$/;"	t	typeref:enum:__anon18	file:
+StateType	lex/scan.c	/^} StateType;$/;"	t	typeref:enum:__anon27	file:
+StateType	scan.c	/^} StateType;$/;"	t	typeref:enum:__anon14	file:
+StmtK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon8
+StmtK	lex/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon21
+StmtK	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon1
+StmtKind	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	t	typeref:enum:__anon9
+StmtKind	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	t	typeref:enum:__anon22
+StmtKind	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	t	typeref:enum:__anon2
+TIMES	globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon7
+TIMES	lex/globals.h	/^  PLUS,MINUS,TIMES,OVER,    \/\/ +, -, *, \/$/;"	e	enum:__anon20
+TRUE	globals.h	21;"	d
+TRUE	lex/globals.h	21;"	d
+TRUE	tm.c	14;"	d	file:
+TRUE	yacc/globals.h	44;"	d
+TokenType	globals.h	/^} TokenType;$/;"	t	typeref:enum:__anon7
+TokenType	lex/globals.h	/^} TokenType;$/;"	t	typeref:enum:__anon20
+TokenType	yacc/globals.h	/^typedef int TokenType; $/;"	t
+TraceAnalyze	lex/main.c	/^int TraceAnalyze = FALSE;$/;"	v
+TraceAnalyze	main.c	/^int TraceAnalyze = FALSE;$/;"	v
+TraceCode	lex/main.c	/^int TraceCode = FALSE;$/;"	v
+TraceCode	main.c	/^int TraceCode = FALSE;$/;"	v
+TraceParse	lex/main.c	/^int TraceParse = TRUE;$/;"	v
+TraceParse	main.c	/^int TraceParse = TRUE;$/;"	v
+TraceScan	lex/main.c	/^int TraceScan = FALSE;$/;"	v
+TraceScan	main.c	/^int TraceScan = FALSE;$/;"	v
+TreeNode	globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+TreeNode	lex/globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+TreeNode	yacc/globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+UINT16_MAX	lex/lex.yy.c	81;"	d	file:
+UINT32_MAX	lex/lex.yy.c	84;"	d	file:
+UINT8_MAX	lex/lex.yy.c	78;"	d	file:
+UNINDENT	lex/util.c	86;"	d	file:
+UNINDENT	util.c	129;"	d	file:
+VOID	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+VOID	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+VarDecK	globals.h	/^typedef enum {IfK,AssignK,VarDecK,ArrayDecK,FuncDecK,$/;"	e	enum:__anon9
+Void	globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon11
+Void	lex/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon24
+Void	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon4
+WHILE	globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon7
+WHILE	lex/globals.h	/^  ELSE,IF,INT,RETURN,VOID,WHILE,$/;"	e	enum:__anon20
+WORDSIZE	tm.c	27;"	d	file:
+WhileK	globals.h	/^	      ParamK,ComK,WhileK,ReturnK} StmtKind;$/;"	e	enum:__anon9
+WriteK	lex/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon22
+WriteK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon2
+YYSTATE	lex/lex.yy.c	133;"	d	file:
+YYTABLES_NAME	lex/lex.yy.c	1947;"	d	file:
+YY_AT_BOL	lex/lex.yy.c	340;"	d	file:
+YY_BREAK	lex/lex.yy.c	681;"	d	file:
+YY_BUFFER_EOF_PENDING	lex/lex.yy.c	256;"	d	file:
+YY_BUFFER_NEW	lex/lex.yy.c	244;"	d	file:
+YY_BUFFER_NORMAL	lex/lex.yy.c	245;"	d	file:
+YY_BUFFER_STATE	lex/lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	lex/lex.yy.c	150;"	d	file:
+YY_BUF_SIZE	lex/lex.yy.c	152;"	d	file:
+YY_CHAR	lex/lex.yy.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	lex/lex.yy.c	272;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	lex/lex.yy.c	279;"	d	file:
+YY_DECL	lex/lex.yy.c	669;"	d	file:
+YY_DECL_IS_OURS	lex/lex.yy.c	665;"	d	file:
+YY_DO_BEFORE_ACTION	lex/lex.yy.c	365;"	d	file:
+YY_END_OF_BUFFER	lex/lex.yy.c	373;"	d	file:
+YY_END_OF_BUFFER_CHAR	lex/lex.yy.c	141;"	d	file:
+YY_EXIT_FAILURE	lex/lex.yy.c	1745;"	d	file:
+YY_EXTRA_TYPE	lex/lex.yy.c	521;"	d	file:
+YY_FATAL_ERROR	lex/lex.yy.c	656;"	d	file:
+YY_FLEX_MAJOR_VERSION	lex/lex.yy.c	10;"	d	file:
+YY_FLEX_MINOR_VERSION	lex/lex.yy.c	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	lex/lex.yy.c	12;"	d	file:
+YY_FLUSH_BUFFER	lex/lex.yy.c	308;"	d	file:
+YY_INPUT	lex/lex.yy.c	609;"	d	file:
+YY_INT_ALIGNED	lex/lex.yy.c	5;"	d	file:
+YY_LESS_LINENO	lex/lex.yy.c	173;"	d	file:
+YY_MORE_ADJ	lex/lex.yy.c	492;"	d	file:
+YY_NEW_FILE	lex/lex.yy.c	139;"	d	file:
+YY_NULL	lex/lex.yy.c	113;"	d	file:
+YY_NUM_RULES	lex/lex.yy.c	372;"	d	file:
+YY_READ_BUF_SIZE	lex/lex.yy.c	591;"	d	file:
+YY_READ_BUF_SIZE	lex/lex.yy.c	593;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	lex/lex.yy.c	493;"	d	file:
+YY_RULE_SETUP	lex/lex.yy.c	684;"	d	file:
+YY_SC_TO_UI	lex/lex.yy.c	120;"	d	file:
+YY_START	lex/lex.yy.c	132;"	d	file:
+YY_START_STACK_INCR	lex/lex.yy.c	651;"	d	file:
+YY_STATE_BUF_SIZE	lex/lex.yy.c	158;"	d	file:
+YY_STATE_EOF	lex/lex.yy.c	136;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	lex/lex.yy.c	197;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	lex/lex.yy.c	161;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	lex/lex.yy.c	192;"	d	file:
+YY_USER_ACTION	lex/lex.yy.c	676;"	d	file:
+YY_USE_CONST	lex/lex.yy.c	101;"	d	file:
+YY_USE_CONST	lex/lex.yy.c	94;"	d	file:
+_ANALYZE_H_	analyze.h	9;"	d
+_CGEN_H_	cgen.h	9;"	d
+_CODE_H_	code.h	10;"	d
+_GLOBALS_H_	globals.h	9;"	d
+_GLOBALS_H_	lex/globals.h	9;"	d
+_GLOBALS_H_	yacc/globals.h	11;"	d
+_PARSE_H_	parse.h	9;"	d
+_SCAN_H_	lex/scan.h	9;"	d
+_SCAN_H_	scan.h	9;"	d
+_SYMTAB_H_	symtab.h	10;"	d
+_UTIL_H_	lex/util.h	9;"	d
+_UTIL_H_	util.h	9;"	d
+__STDC_LIMIT_MACROS	lex/lex.yy.c	40;"	d	file:
+ac	code.h	27;"	d
+ac1	code.h	30;"	d
+additive_expression	parse.c	/^static TreeNode * additive_expression (void)$/;"	f	file:
+arg_list	parse.c	/^static TreeNode * arg_list (void)$/;"	f	file:
+args	parse.c	/^static TreeNode * args (void)$/;"	f	file:
+assign_stmt	yacc/tiny.y	/^assign_stmt : ID { savedName = copyString(tokenString);$/;"	l
+atEOL	tm.c	/^int atEOL(void)$/;"	f
+attr	globals.h	/^     } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon13
+attr	lex/globals.h	/^             char * name; } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon26
+attr	yacc/globals.h	/^             char * name; } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon6
+bufsize	lex/scan.c	/^static int bufsize = 0;      \/\/ current size of the lineBuf is $/;"	v	file:
+bufsize	scan.c	/^static int bufsize = 0;      \/\/ current size of the lineBuf is $/;"	v	file:
+buildSymtab	analyze.c	/^void buildSymtab(TreeNode * syntaxTree)$/;"	f
+cGen	cgen.c	/^static void cGen( TreeNode * tree)$/;"	f	file:
+ch	tm.c	/^char ch  ;$/;"	v
+checkNode	analyze.c	/^static void checkNode(TreeNode * t)$/;"	f	file:
+child	globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+child	lex/globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+child	yacc/globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+code	lex/main.c	/^FILE * code;$/;"	v
+code	main.c	/^FILE * code;$/;"	v
+codeGen	cgen.c	/^void codeGen(TreeNode * syntaxTree, char * codefile)$/;"	f
+compound_stmt	parse.c	/^static TreeNode * compound_stmt (void)$/;"	f	file:
+copyString	lex/util.c	/^char * copyString(char * s)$/;"	f
+copyString	util.c	/^char * copyString(char * s)$/;"	f
+dMem	tm.c	/^int dMem [DADDR_SIZE];$/;"	v
+declaration	parse.c	/^static TreeNode * declaration(void)$/;"	f	file:
+declaration_list	parse.c	/^static TreeNode * declaration_list(void)$/;"	f	file:
+dloc	tm.c	/^int dloc = 0 ;$/;"	v
+doCommand	tm.c	/^int doCommand (void)$/;"	f
+done	tm.c	/^int done  ;$/;"	v
+emitBackup	code.c	/^void emitBackup( int loc)$/;"	f
+emitComment	code.c	/^void emitComment( char * c )$/;"	f
+emitLoc	code.c	/^static int emitLoc = 0 ;$/;"	v	file:
+emitRM	code.c	/^void emitRM( char * op, int r, int d, int s, char *c)$/;"	f
+emitRM_Abs	code.c	/^void emitRM_Abs( char *op, int r, int a, char * c)$/;"	f
+emitRO	code.c	/^void emitRO( char *op, int r, int s, int t, char *c)$/;"	f
+emitRestore	code.c	/^void emitRestore(void)$/;"	f
+emitSkip	code.c	/^int emitSkip( int howMany)$/;"	f
+error	tm.c	/^int error( char * msg, int lineNo, int instNo)$/;"	f
+exp	globals.h	/^     	     ExpKind exp; $/;"	m	union:treeNode::__anon12
+exp	lex/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon25
+exp	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon5
+exp	yacc/tiny.y	/^exp         : simple_exp LT simple_exp $/;"	l
+expression	parse.c	/^static TreeNode * expression (void)$/;"	f	file:
+expression_stmt	parse.c	/^static TreeNode * expression_stmt (void)$/;"	f	file:
+factor	parse.c	/^static TreeNode * factor (void)$/;"	f	file:
+factor	yacc/tiny.y	/^factor      : LPAREN exp RPAREN$/;"	l
+flex_int16_t	lex/lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	lex/lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	lex/lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	lex/lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	lex/lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	lex/lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	lex/lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	lex/lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	lex/lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	lex/lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	lex/lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	lex/lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+genExp	cgen.c	/^static void genExp( TreeNode * tree)$/;"	f	file:
+genStmt	cgen.c	/^static void genStmt( TreeNode * tree)$/;"	f	file:
+getCh	tm.c	/^void getCh (void)$/;"	f
+getNextChar	lex/scan.c	/^static int getNextChar(void)$/;"	f	file:
+getNextChar	scan.c	/^static int getNextChar(void)$/;"	f	file:
+getNum	tm.c	/^int getNum (void)$/;"	f
+getToken	lex/lex.yy.c	/^TokenType getToken(void)$/;"	f
+getToken	lex/scan.c	/^TokenType getToken(void) $/;"	f
+getToken	scan.c	/^TokenType getToken(void) $/;"	f
+getWord	tm.c	/^int getWord (void)$/;"	f
+gp	code.h	24;"	d
+hash	symtab.c	/^static int hash ( char * key )$/;"	f	file:
+hashTable	symtab.c	/^static BucketList hashTable[SIZE];$/;"	v	file:
+highEmitLoc	code.c	/^static int highEmitLoc = 0;$/;"	v	file:
+iMem	tm.c	/^INSTRUCTION iMem [IADDR_SIZE];$/;"	v
+iarg1	tm.c	/^      int iarg1  ;$/;"	m	struct:__anon19	file:
+iarg2	tm.c	/^      int iarg2  ;$/;"	m	struct:__anon19	file:
+iarg3	tm.c	/^      int iarg3  ;$/;"	m	struct:__anon19	file:
+icountflag	tm.c	/^int icountflag = FALSE;$/;"	v
+if_stmt	yacc/tiny.y	/^if_stmt     : IF exp THEN stmt_seq END$/;"	l
+iloc	tm.c	/^int iloc = 0 ;$/;"	v
+inCol	tm.c	/^int inCol  ;$/;"	v
+in_Line	tm.c	/^char in_Line[LINESIZE] ;$/;"	v
+indentno	lex/util.c	/^static indentno = 0;$/;"	v	file:
+indentno	util.c	/^static indentno = 0;$/;"	v	file:
+insertNode	analyze.c	/^static void insertNode( TreeNode * t)$/;"	f	file:
+iop	tm.c	/^      int iop  ;$/;"	m	struct:__anon19	file:
+isAddop	parse.c	/^static int isAddop (TokenType token)$/;"	f	file:
+isMulop	parse.c	/^static int isMulop (TokenType token)$/;"	f	file:
+isOp	parse.c	/^static int isOp (TokenType token)$/;"	f	file:
+isRelop	parse.c	/^static int isRelop (TokenType token)$/;"	f	file:
+iteration_stmt	parse.c	/^static TreeNode * iteration_stmt (void)$/;"	f	file:
+kind	globals.h	/^     } kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon12
+kind	lex/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon25
+kind	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon5
+lineBuf	lex/scan.c	/^static char lineBuf[BUFLEN]; \/\/ hold the current line$/;"	v	file:
+lineBuf	scan.c	/^static char lineBuf[BUFLEN]; \/\/ hold the current line$/;"	v	file:
+lineLen	tm.c	/^int lineLen ;$/;"	v
+lineno	globals.h	/^     int lineno;$/;"	m	struct:treeNode
+lineno	lex/globals.h	/^     int lineno;$/;"	m	struct:treeNode
+lineno	lex/main.c	/^int lineno = 0;$/;"	v
+lineno	main.c	/^int lineno = 0;$/;"	v
+lineno	symtab.c	/^   { int lineno;$/;"	m	struct:LineListRec	file:
+lineno	yacc/globals.h	/^     int lineno;$/;"	m	struct:treeNode
+linepos	lex/scan.c	/^static int linepos = 0;      \/\/ current pos in lineBuf$/;"	v	file:
+linepos	scan.c	/^static int linepos = 0;      \/\/ current pos in lineBuf$/;"	v	file:
+lines	symtab.c	/^     LineList lines;$/;"	m	struct:BucketListRec	file:
+listing	lex/main.c	/^FILE * listing;$/;"	v
+listing	main.c	/^FILE * listing;$/;"	v
+local_declarations	parse.c	/^static TreeNode * local_declarations (void)$/;"	f	file:
+location	analyze.c	/^static int location = 0;$/;"	v	file:
+main	lex/main.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	main.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tm.c	/^main( int argc, char * argv[] )$/;"	f
+match	parse.c	/^static void match(TokenType expected)$/;"	f	file:
+memloc	symtab.c	/^     int memloc ; \/* memory location for variable *\/$/;"	m	struct:BucketListRec	file:
+mp	code.h	18;"	d
+name	globals.h	/^             char * name; $/;"	m	union:treeNode::__anon13
+name	lex/globals.h	/^             char * name; } attr;$/;"	m	union:treeNode::__anon26
+name	symtab.c	/^   { char * name;$/;"	m	struct:BucketListRec	file:
+name	yacc/globals.h	/^             char * name; } attr;$/;"	m	union:treeNode::__anon6
+newExpNode	util.c	/^TreeNode * newExpNode (ExpKind kind)$/;"	f
+newNode	util.c	/^TreeNode * newNode (void)$/;"	f
+newStmtNode	util.c	/^TreeNode * newStmtNode (StmtKind kind)$/;"	f
+next	symtab.c	/^     struct BucketListRec * next;$/;"	m	struct:BucketListRec	typeref:struct:BucketListRec::BucketListRec	file:
+next	symtab.c	/^     struct LineListRec * next;$/;"	m	struct:LineListRec	typeref:struct:LineListRec::LineListRec	file:
+nodekind	globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nodekind	lex/globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nodekind	yacc/globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nonBlank	tm.c	/^int nonBlank (void)$/;"	f
+nullProc	analyze.c	/^static void nullProc(TreeNode * t)$/;"	f	file:
+num	tm.c	/^int num  ;$/;"	v
+op	globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon13
+op	lex/globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon26
+op	yacc/globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon6
+opADD	tm.c	/^   opADD,    \/* RR     reg(r) = reg(s)+reg(t) *\/$/;"	e	enum:__anon17	file:
+opClass	tm.c	/^int opClass( int c )$/;"	f
+opCodeTab	tm.c	/^char * opCodeTab[]$/;"	v
+opDIV	tm.c	/^   opDIV,    \/* RR     reg(r) = reg(s)\/reg(t) *\/$/;"	e	enum:__anon17	file:
+opHALT	tm.c	/^   opHALT,    \/* RR     halt, operands are ignored *\/$/;"	e	enum:__anon17	file:
+opIN	tm.c	/^   opIN,      \/* RR     read into reg(r); s and t are ignored *\/$/;"	e	enum:__anon17	file:
+opJEQ	tm.c	/^   opJEQ,     \/* RA     if reg(r)==0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opJGE	tm.c	/^   opJGE,     \/* RA     if reg(r)>=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opJGT	tm.c	/^   opJGT,     \/* RA     if reg(r)>0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opJLE	tm.c	/^   opJLE,     \/* RA     if reg(r)<=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opJLT	tm.c	/^   opJLT,     \/* RA     if reg(r)<0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opJNE	tm.c	/^   opJNE,     \/* RA     if reg(r)!=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opLD	tm.c	/^   opLD,      \/* RM     reg(r) = mem(d+reg(s)) *\/$/;"	e	enum:__anon17	file:
+opLDA	tm.c	/^   opLDA,     \/* RA     reg(r) = d+reg(s) *\/$/;"	e	enum:__anon17	file:
+opLDC	tm.c	/^   opLDC,     \/* RA     reg(r) = d ; reg(s) is ignored *\/$/;"	e	enum:__anon17	file:
+opMUL	tm.c	/^   opMUL,    \/* RR     reg(r) = reg(s)*reg(t) *\/$/;"	e	enum:__anon17	file:
+opOUT	tm.c	/^   opOUT,     \/* RR     write from reg(r), s and t are ignored *\/$/;"	e	enum:__anon17	file:
+opRALim	tm.c	/^   opRALim    \/* Limit of RA opcodes *\/$/;"	e	enum:__anon17	file:
+opRMLim	tm.c	/^   opRMLim,   \/* Limit of RM opcodes *\/$/;"	e	enum:__anon17	file:
+opRRLim	tm.c	/^   opRRLim,   \/* limit of RR opcodes *\/$/;"	e	enum:__anon17	file:
+opST	tm.c	/^   opST,      \/* RM     mem(d+reg(s)) = reg(r) *\/$/;"	e	enum:__anon17	file:
+opSUB	tm.c	/^   opSUB,    \/* RR     reg(r) = reg(s)-reg(t) *\/$/;"	e	enum:__anon17	file:
+opclRA	tm.c	/^   opclRA      \/* reg r, int d+s *\/$/;"	e	enum:__anon16	file:
+opclRM	tm.c	/^   opclRM,     \/* reg r, mem d+s *\/$/;"	e	enum:__anon16	file:
+opclRR	tm.c	/^   opclRR,     \/* reg operands r,s,t *\/$/;"	e	enum:__anon16	file:
+param	parse.c	/^static TreeNode * param (void)$/;"	f	file:
+param_list	parse.c	/^static TreeNode * param_list (void)$/;"	f	file:
+params	parse.c	/^static TreeNode * params (void)$/;"	f	file:
+parse	parse.c	/^TreeNode * parse (void)$/;"	f
+pc	code.h	13;"	d
+pgm	tm.c	/^FILE *pgm  ;$/;"	v
+pgmName	tm.c	/^char pgmName[20];$/;"	v
+printSpaces	lex/util.c	/^static void printSpaces(void)$/;"	f	file:
+printSpaces	util.c	/^static void printSpaces(void)$/;"	f	file:
+printSymTab	symtab.c	/^void printSymTab(FILE * listing)$/;"	f
+printToken	lex/util.c	/^void printToken(TokenType token, const char* tokenString) $/;"	f
+printToken	util.c	/^void printToken(TokenType token, const char* tokenString) $/;"	f
+printTree	lex/util.c	/^void printTree( TreeNode * tree )$/;"	f
+printTree	util.c	/^void printTree( TreeNode * tree )$/;"	f
+program	yacc/tiny.y	/^program     : stmt_seq$/;"	l
+readInstructions	tm.c	/^int readInstructions (void)$/;"	f
+read_stmt	yacc/tiny.y	/^read_stmt   : READ ID$/;"	l
+reg	tm.c	/^int reg [NO_REGS];$/;"	v
+repeat_stmt	yacc/tiny.y	/^repeat_stmt : REPEAT stmt_seq UNTIL exp$/;"	l
+reservedLookup	lex/scan.c	/^static TokenType reservedLookup (char * s)$/;"	f	file:
+reservedLookup	scan.c	/^static TokenType reservedLookup (char * s)$/;"	f	file:
+reservedWords	lex/scan.c	/^    } reservedWords[MAXRESERVED]$/;"	v	typeref:struct:__anon28	file:
+reservedWords	scan.c	/^    } reservedWords[MAXRESERVED]$/;"	v	typeref:struct:__anon15	file:
+return_stmt	parse.c	/^static TreeNode * return_stmt (void)$/;"	f	file:
+selection_stmt	parse.c	/^static TreeNode * selection_stmt (void)$/;"	f	file:
+sibling	globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+sibling	lex/globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+sibling	yacc/globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+simple_exp	yacc/tiny.y	/^simple_exp  : simple_exp PLUS term $/;"	l
+simple_expression	parse.c	/^static TreeNode * simple_expression (void)$/;"	f	file:
+skipCh	tm.c	/^int skipCh ( char c  )$/;"	f
+source	lex/main.c	/^FILE * source;$/;"	v
+source	main.c	/^FILE * source;$/;"	v
+srDMEM_ERR	tm.c	/^   srDMEM_ERR,$/;"	e	enum:__anon18	file:
+srHALT	tm.c	/^   srHALT,$/;"	e	enum:__anon18	file:
+srIMEM_ERR	tm.c	/^   srIMEM_ERR,$/;"	e	enum:__anon18	file:
+srOKAY	tm.c	/^   srOKAY,$/;"	e	enum:__anon18	file:
+srZERODIVIDE	tm.c	/^   srZERODIVIDE$/;"	e	enum:__anon18	file:
+st_insert	symtab.c	/^void st_insert( char * name, int lineno, int loc )$/;"	f
+st_lookup	symtab.c	/^int st_lookup ( char * name )$/;"	f
+statement	parse.c	/^static TreeNode * statement (void)$/;"	f	file:
+statement_list	parse.c	/^static TreeNode * statement_list (void)$/;"	f	file:
+stepResultTab	tm.c	/^char * stepResultTab[]$/;"	v
+stepTM	tm.c	/^STEPRESULT stepTM (void)$/;"	f
+stmt	globals.h	/^     union { StmtKind stmt; $/;"	m	union:treeNode::__anon12
+stmt	lex/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon25
+stmt	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon5
+stmt	yacc/tiny.y	/^stmt        : if_stmt { $$ = $1; }$/;"	l
+stmt_seq	yacc/tiny.y	/^stmt_seq    : stmt_seq SEMI stmt$/;"	l
+str	lex/scan.c	/^    { char* str;$/;"	m	struct:__anon28	file:
+str	scan.c	/^    { char* str;$/;"	m	struct:__anon15	file:
+syntaxError	parse.c	/^static void syntaxError(char * message)$/;"	f	file:
+syntaxTree	main.c	/^TreeNode * syntaxTree;$/;"	v
+term	parse.c	/^static TreeNode * term (void)$/;"	f	file:
+term	yacc/tiny.y	/^term        : term TIMES factor $/;"	l
+tmpOffset	cgen.c	/^static int tmpOffset = 0;$/;"	v	file:
+tok	lex/scan.c	/^      TokenType tok;$/;"	m	struct:__anon28	file:
+tok	scan.c	/^      TokenType tok;$/;"	m	struct:__anon15	file:
+token	parse.c	/^static TokenType token; \/* holds current token *\/$/;"	v	file:
+tokenString	lex/lex.yy.c	/^char tokenString[MAXTOKENLEN+1];$/;"	v
+tokenString	lex/scan.c	/^char tokenString[MAXTOKENLEN + 1];$/;"	v
+tokenString	scan.c	/^char tokenString[MAXTOKENLEN + 1];$/;"	v
+traceflag	tm.c	/^int traceflag = FALSE;$/;"	v
+traverse	analyze.c	/^static void traverse( TreeNode * t,$/;"	f	file:
+treeNode	globals.h	/^typedef struct treeNode$/;"	s
+treeNode	lex/globals.h	/^typedef struct treeNode$/;"	s
+treeNode	yacc/globals.h	/^typedef struct treeNode$/;"	s
+type	globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+type	lex/globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+type	yacc/globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+typeCheck	analyze.c	/^void typeCheck(TreeNode * syntaxTree)$/;"	f
+typeError	analyze.c	/^static void typeError(TreeNode * t, char * message)$/;"	f	file:
+unexpectedTokenHandling	parse.c	/^static void unexpectedTokenHandling (void)$/;"	f	file:
+ungetNextChar	lex/scan.c	/^static void ungetNextChar(void)$/;"	f	file:
+ungetNextChar	scan.c	/^static void ungetNextChar(void)$/;"	f	file:
+unput	lex/lex.yy.c	189;"	d	file:
+val	globals.h	/^             int val;$/;"	m	union:treeNode::__anon13
+val	lex/globals.h	/^             int val;$/;"	m	union:treeNode::__anon26
+val	yacc/globals.h	/^             int val;$/;"	m	union:treeNode::__anon6
+var_declaration	parse.c	/^static TreeNode * var_declaration (void)$/;"	f	file:
+word	tm.c	/^char word[WORDSIZE] ;$/;"	v
+writeInstruction	tm.c	/^void writeInstruction ( int loc )$/;"	f
+write_stmt	yacc/tiny.y	/^write_stmt  : WRITE exp$/;"	l
+yy_accept	lex/lex.yy.c	/^static yyconst flex_int16_t yy_accept[57] =$/;"	v	file:
+yy_at_bol	lex/lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	lex/lex.yy.c	/^static yyconst flex_int16_t yy_base[58] =$/;"	v	file:
+yy_bs_column	lex/lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	lex/lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	lex/lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	lex/lex.yy.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	lex/lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	lex/lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	lex/lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	lex/lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	lex/lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	lex/lex.yy.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	lex/lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	lex/lex.yy.c	/^static yyconst flex_int16_t yy_chk[101] =$/;"	v	file:
+yy_create_buffer	lex/lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	lex/lex.yy.c	/^static yyconst flex_int16_t yy_def[58] =$/;"	v	file:
+yy_delete_buffer	lex/lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	lex/lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	lex/lex.yy.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	lex/lex.yy.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	lex/lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	lex/lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	lex/lex.yy.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	lex/lex.yy.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	lex/lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	lex/lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	lex/lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	lex/lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	lex/lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	lex/lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	lex/lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	lex/lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	lex/lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	lex/lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	lex/lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	lex/lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	lex/lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	lex/lex.yy.c	/^static yyconst flex_int32_t yy_meta[36] =$/;"	v	file:
+yy_n_chars	lex/lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	lex/lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	lex/lex.yy.c	318;"	d	file:
+yy_nxt	lex/lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	lex/lex.yy.c	/^static yyconst flex_int16_t yy_nxt[101] =$/;"	v	file:
+yy_scan_buffer	lex/lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	lex/lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	lex/lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	lex/lex.yy.c	330;"	d	file:
+yy_set_interactive	lex/lex.yy.c	320;"	d	file:
+yy_size_t	lex/lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_start	lex/lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	lex/lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	lex/lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_trans_info	lex/lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	lex/lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	lex/lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	lex/lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyconst	lex/lex.yy.c	107;"	d	file:
+yyconst	lex/lex.yy.c	109;"	d	file:
+yyensure_buffer_stack	lex/lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyfree	lex/lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	lex/lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	lex/lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	lex/lex.yy.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	lex/lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	lex/lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	lex/lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyin	lex/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	lex/lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	lex/lex.yy.c	/^int yyleng;$/;"	v
+yyless	lex/lex.yy.c	1756;"	d	file:
+yyless	lex/lex.yy.c	1757;"	d	file:
+yyless	lex/lex.yy.c	176;"	d	file:
+yylex_destroy	lex/lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	lex/lex.yy.c	/^int yylineno = 1;$/;"	v
+yymore	lex/lex.yy.c	491;"	d	file:
+yyout	lex/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypop_buffer_state	lex/lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	lex/lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyrealloc	lex/lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	lex/lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyset_debug	lex/lex.yy.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	lex/lex.yy.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	lex/lex.yy.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	lex/lex.yy.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyterminate	lex/lex.yy.c	646;"	d	file:
+yytext	lex/lex.yy.c	/^char *yytext;$/;"	v
+yytext_ptr	lex/lex.yy.c	355;"	d	file:
+yyunput	lex/lex.yy.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:

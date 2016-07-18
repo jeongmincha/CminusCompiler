@@ -1,0 +1,10 @@
+int add(int a, int b)
+{
+  output(a); output(b);
+  return a+b;
+}
+
+void main(void)
+{
+  output(add(1,3));
+}
