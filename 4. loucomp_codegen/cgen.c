@@ -18,7 +18,6 @@ static int getInfo = 0;
 static int saved_config = FALSE;
 static int siblingRecur = TRUE;
 static char * currentFuncName = NULL;
-static int currentScope = 0;
 static int isCall = FALSE;
 
 int globalIndex = 0;
@@ -80,32 +79,6 @@ typedef struct funcInfo
     struct funcInfo * next;
   } FuncInfo;
 static FuncInfo * functionList = NULL;
-
-typedef struct stackFrame
-  { 
-    FuncInfo * info;
-    struct stackFrame * next;
-  } StackFrame;
-static StackFrame * stackList = NULL;
-
-static StackFrame * makeStackFrame(FuncInfo * f)
-{
-  StackFrame * frame = (StackFrame *)malloc(sizeof(StackFrame));
-  frame->info = f;
-  return frame;
-}
-
-static void push_stack (StackFrame * st)
-{
-  st->next = stackList;
-  stackList = st;
-}
-
-static void pop_stack (void)
-{
-  if (stackList != NULL)
-    stackList = stackList->next;  
-}
 
 static FuncInfo * lookup_FuncInfo(char * name)
 {
@@ -233,7 +206,7 @@ static FuncInfo * makeFuncInfo (TreeNode * dec)
     info->para_num = 0;  
   else {
     tmp = params;
-    while (tmp != NULL) { 
+    while (tmp != NULL) {
       info->para_num ++;
       vTmp = (VarNode *)malloc(sizeof(VarNode));
       vTmp->index = index++;
@@ -258,9 +231,16 @@ static FuncInfo * makeFuncInfo (TreeNode * dec)
     tmp = local_declarations;
     while (tmp != NULL)
     {
-      info->var_num ++; 
+      if (tmp->kind.exp == IdArrayK) {
+        info->var_num += tmp->child[0]->attr.val;
+      }
+      else info->var_num ++; 
       vTmp = (VarNode *)malloc(sizeof(VarNode));
-      vTmp->index = index++;
+      if (tmp->kind.exp == IdArrayK) {
+        vTmp->index = index;
+        index += tmp->child[0]->attr.val;
+      }
+      else vTmp->index = index++;
       vTmp->name = copyString(tmp->attr.name);
 
       if (info->vars == NULL)
@@ -393,7 +373,7 @@ static void genStmt( TreeNode * tree) {
       	 emitComment("-> function declaration");
       	 emitComment(tree->attr.name);
 
-	 push_func(makeFuncInfo(tree));
+	       push_func(makeFuncInfo(tree));
       	 func_head(tree->attr.name);
       	 cGen(tree->child[1]);
       	 func_return();
@@ -463,14 +443,21 @@ void emitGetAddr(TreeNode * var)
     if (var->nodekind == ExpK) {
       switch (var->kind.exp) {
         case IdK:
-        case IdArrayK:
           /* global - using gp */
           if (isGlobalVar(var))
        	  //if (var->declNode->scope == 0)
             emitRM("LDA", ac, -ofs, gp, "ac=gp-offset");
           /* local - using bp */
-  	  else
-  	    emitRM("LDA", ac, -1-ofs, bp, "ac=bp-offset-1");
+          else
+            emitRM("LDA", ac, -1-ofs, bp, "ac=bp-offset-1");
+        case IdArrayK:
+          /* global - using gp */
+          if (isGlobalVar(var))
+       	  //if (var->declNode->scope == 0)
+            emitRM("LDA", ac1, -ofs, gp, "ac1=gp-offset");
+          /* local - using bp */
+          else
+            emitRM("LDA", ac1, -1-ofs, bp, "ac1=bp-offset-1");
   	  break;
         default:
           break;
@@ -515,8 +502,9 @@ static void genExp( TreeNode * tree)
       getInfo = ADDRESS;
       cGen(tree->child[0]);
       getInfo = saved_config;
-      pop_reg(ac, "POP AC");
       emitRO("SUB", ac, ac1, ac, "ac=ac1-ac (array offset)");
+      if (getInfo == VALUE)
+        emitRM("LD", ac, 0, ac, "ac=dMem[ac]");
       emitComment("<- Array Id");
       break;
 
